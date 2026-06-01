@@ -56,31 +56,29 @@ function Home() {
       </section>
 
       {/* TOOLS SECTION */}
-      <section className="tools-section">
+{/* INTRO SECTION */}
 
- 
+<section className="intro-section">
 
-        <div className="cards">
+  <h2>What You'll Find Here</h2>
 
-          <a href="#videos" className="card">
-            Videos
-          </a>
+  <p>
+    Welcome to my professional portfolio.
+    This website is dedicated to practical data analytics,
+    business intelligence, reporting, automation, and
+    problem-solving using real-world business data.
 
-          <a href="#articles" className="card">
-            Articles
-          </a>
+    Here you will find short educational videos, articles,
+    and project insights based on my experience working with
+    Qlik Sense, SQL, Excel, Python, Power BI, APIs, and
+    data-driven decision support systems.
 
-          <a href="#projects" className="card">
-            Projects
-          </a>
+    My goal is to help students, aspiring analysts,
+    and professionals learn practical skills that can be
+    applied immediately in academic and business environments.
+  </p>
 
-          <a href="#about" className="card">
-            About
-          </a>
-
-        </div>
-
-      </section>
+</section>
 <section id="videos" className="content-section">
 
   <h2>Featured Videos</h2>
