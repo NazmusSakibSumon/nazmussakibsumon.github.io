@@ -19,15 +19,16 @@ function Home() {
           <h1>Nazmus Sakib Sumon</h1>
 
           <h3>
-            Data Analyst | Business Intelligence Professional
+             Data Analyst | Educator | Researcher
           </h3>
 
-          <p>
-            To contribute to academic and business excellence through
-            data analytics, business intelligence, and information
-            systems by transforming complex data into actionable
-            insights and real-world solutions.
-          </p>
+            <p>
+            Helping organizations transform data into actionable insights through analytics, business intelligence, and information systems.
+            </p>
+
+            <p>
+            Passionate about teaching, research, and bridging the gap between academic theory and real-world practice.
+            </p>
 
           <div className="button-group">
 
@@ -58,25 +59,115 @@ function Home() {
       {/* TOOLS SECTION */}
 {/* INTRO SECTION */}
 
-<section className="intro-section">
+<section id="about" className="intro-section">
+  
 
-  <h2>What You'll Find Here</h2>
+  <h2>About Me</h2>
+
+<p>
+I am a Data Analyst at the University of Georgia with over six years of experience in data analytics, business intelligence, information systems, and decision-support systems within higher education environments.
+
+My academic background includes an MBA in Information Systems from the University of Toledo, ongoing graduate studies in Analytics at Georgia Institute of Technology, and a BBA in Management Information Systems from the University of Dhaka.
+
+My professional interests lie at the intersection of Information Systems, Business Analytics, Artificial Intelligence, and Higher Education. Through this website, I share research interests, teaching areas, professional projects, articles, and educational content based on real-world experience.
+</p>
+
+</section>
+<section id="research" className="content-section">
+
+  <h2>Research Interests</h2>
 
   <p>
-    Welcome to my professional portfolio.
-    This website is dedicated to practical data analytics,
-    business intelligence, reporting, automation, and
-    problem-solving using real-world business data.
-
-    Here you will find short educational videos, articles,
-    and project insights based on my experience working with
-    Qlik Sense, SQL, Excel, Python, Power BI, APIs, and
-    data-driven decision support systems.
-
-    My goal is to help students, aspiring analysts,
-    and professionals learn practical skills that can be
-    applied immediately in academic and business environments.
+    My research interests focus on the intersection of
+    information systems, business intelligence, data analytics,
+    artificial intelligence, and organizational decision making.
   </p>
+
+  <div className="article-grid">
+
+    <div className="article-card">
+      <h3>Business Intelligence</h3>
+      <p>
+        Improving organizational performance through data-driven insights.
+      </p>
+    </div>
+
+    <div className="article-card">
+      <h3>Data Analytics</h3>
+      <p>
+        Applying analytical techniques to solve practical business problems.
+      </p>
+    </div>
+
+    <div className="article-card">
+      <h3>Information Systems</h3>
+      <p>
+        Understanding how technology supports organizational goals.
+      </p>
+    </div>
+
+    <div className="article-card">
+      <h3>Artificial Intelligence</h3>
+      <p>
+        Exploring practical AI adoption in higher education and business.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+<section id="teaching" className="content-section">
+
+  <h2>Teaching</h2>
+
+  <p className="section-intro">
+    My teaching philosophy emphasizes connecting academic concepts
+    with practical industry applications so that students develop
+    both theoretical understanding and real-world problem-solving skills.
+  </p>
+
+  <div className="article-grid">
+
+    <div className="article-card">
+      <h3>Management Information Systems</h3>
+      <p>Technology, organizations, and business strategy.</p>
+    </div>
+
+    <div className="article-card">
+      <h3>Business Analytics</h3>
+      <p>Data-driven decision making and analytical thinking.</p>
+    </div>
+
+    <div className="article-card">
+      <h3>Business Intelligence</h3>
+      <p>Transforming organizational data into actionable insights.</p>
+    </div>
+
+    <div className="article-card">
+      <h3>Database Management</h3>
+      <p>Database design, SQL, and information management.</p>
+    </div>
+
+    <div className="article-card">
+      <h3>Data Visualization</h3>
+      <p>Communicating information through dashboards and reports.</p>
+    </div>
+
+    <div className="article-card">
+      <h3>Decision Support Systems</h3>
+      <p>Using technology and analytics to support decisions.</p>
+    </div>
+
+  </div>
+
+  <div className="teaching-experience">
+    <h3>Teaching Experience</h3>
+
+    <p>
+      Graduate Teaching Assistant<br />
+      University of Toledo
+    </p>
+  </div>
 
 </section>
 <section id="videos" className="content-section">
@@ -251,17 +342,9 @@ function Home() {
 
 </section>
 
-<section id="about" className="content-section">
 
-  <h2>About</h2>
 
-  <p>
-    I am a Data Analyst at the University of Georgia with experience
-    in business intelligence, analytics, SQL, Python, Excel,
-    Qlik Sense, APIs, and data-driven decision support.
-  </p>
 
-</section>
 
 <section id="cv" className="content-section">
 
