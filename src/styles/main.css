@@ -106,12 +106,14 @@ nav h2 {
   max-width: 620px;
 }
 
+
 .hero-text h1 {
   font-size: 64px;
   line-height: 1.1;
   margin-bottom: 18px;
-}
 
+  white-space: nowrap;
+}
 .hero-text h3 {
   font-size: 28px;
   color: #46779f;
