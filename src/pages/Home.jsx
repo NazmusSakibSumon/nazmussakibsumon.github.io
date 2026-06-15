@@ -59,20 +59,41 @@ function Home() {
       {/* TOOLS SECTION */}
 {/* INTRO SECTION */}
 
+
 <section id="about" className="intro-section">
-  
 
   <h2>About Me</h2>
+      <div className="about-video">
 
-<p>
-I am a Data Analyst at the University of Georgia with over six years of experience in data analytics, business intelligence, information systems, and decision-support systems within higher education environments.
+      <video controls preload="metadata">
+        <source
+          src="/videos/introduction.mp4"
+          type="video/mp4"
+        />
+      </video>
 
-My academic background includes an MBA in Information Systems from the University of Toledo, ongoing graduate studies in Analytics at Georgia Institute of Technology, and a BBA in Management Information Systems from the University of Dhaka.
+    </div>
 
-My professional interests lie at the intersection of Information Systems, Business Analytics, Artificial Intelligence, and Higher Education. Through this website, I share research interests, teaching areas, professional projects, articles, and educational content based on real-world experience.
-</p>
+  <div className="about-content">
+
+    <div className="about-text">
+
+      <p>
+        I am a Data Analyst at the University of Georgia with over six years of experience in data analytics, business intelligence, information systems, and decision-support systems within higher education environments.
+
+        My academic background includes an MBA in Information Systems from the University of Toledo, ongoing graduate studies in Analytics at Georgia Institute of Technology, and a BBA in Management Information Systems from the University of Dhaka.
+
+        My professional interests lie at the intersection of Information Systems, Business Analytics, Artificial Intelligence, and Higher Education. Through this website, I share research interests, teaching areas, professional projects, articles, and educational content based on real-world experience.
+      </p>
+
+    </div>
+
+
+
+  </div>
 
 </section>
+
 <section id="research" className="content-section">
 
   <h2>Research Interests</h2>
